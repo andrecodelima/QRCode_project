@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(0, 0%, 100%);
+} 
+
+#content{
+    background-color: hsl(212, 45%, 89%);
+    width: 1440px;
+    height: 920px;
+    border: 1px solid white; /*Pq quando tiro essa propiedade a div desce?*/
+    margin: auto;
+    position: static;
+}
+
+.boxqrcode{
+    background-color: white;
+    width: 290px;
+    height: 450px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 180px;
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-right: 17px;
+
+
+}
+
+img{
+    width: 290px;
+    height: 280px;
+    margin: auto;
+    border-radius: 13px;
+}
+
+.paragrafo_destaque{
+    font-family: 'Outfit', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%)
+}
+.paragrafo_abaixo{
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+}
+
