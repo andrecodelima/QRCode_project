@@ -2,6 +2,7 @@
 
 body{
     background-color: hsl(0, 0%, 100%);
+    margin: auto;
 } 
 
 #content{
@@ -23,8 +24,8 @@ body{
     padding-top: 17px;
     padding-left: 17px;
     padding-right: 17px;
-
-
+    /* box-shadow: 10px 10px 13px hsla(216, 9%, 89%, 0.918); */
+    box-shadow: 8px 10px 10px rgba(149, 163, 189, 0.308);
 }
 
 img{
@@ -37,6 +38,7 @@ img{
 .paragrafo_destaque{
     font-family: 'Outfit', sans-serif;
     font-size: 19px;
+    margin-top: -10px;
     font-weight: 700;
     text-align: center;
     color: hsl(218, 44%, 22%)
@@ -44,8 +46,16 @@ img{
 .paragrafo_abaixo{
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
+    margin-top: -8px;
     font-weight: 400;
     text-align: center;
     color: hsl(220, 15%, 55%);
 }
 
+h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%)
+}
