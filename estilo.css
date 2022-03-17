@@ -9,7 +9,7 @@ body{
     background-color: hsl(212, 45%, 89%);
     width: 1440px;
     height: 920px;
-    border: 1px solid white; /*Pq quando tiro essa propiedade a div desce?*/
+    border: 1px solid white; 
     margin: auto;
     position: static;
 }
@@ -26,6 +26,7 @@ body{
     padding-right: 17px;
     /* box-shadow: 10px 10px 13px hsla(216, 9%, 89%, 0.918); */
     box-shadow: 8px 10px 10px rgba(149, 163, 189, 0.308);
+
 }
 
 img{
